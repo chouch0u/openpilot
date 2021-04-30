@@ -3,7 +3,6 @@
 #include "replay.hpp"
 
 int main(int argc, char *argv[]){
-  QCoreApplication::addLibraryPath("../../phonelibs/qt-plugins/x86_64/");
   QApplication a(argc, argv);
 
   QString route(argv[1]);
