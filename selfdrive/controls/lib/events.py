@@ -579,7 +579,7 @@ EVENTS: Dict[int, Dict[str, Union[Alert, Callable[[Any, messaging.SubMaster, boo
   },
 
   EventName.calibrationInvalid: {
-    ET.PERMANENT: NormalPermanentAlert("校准失败：请调整设备的位置后重新校准"),
+    ET.PERMANENT: NormalPermanentAlert("校准失败", "请调整设备的位置后重新校准"),
     ET.SOFT_DISABLE: SoftDisableAlert("校准失败：请调整设备的位置后重新校准"),
     ET.NO_ENTRY: NoEntryAlert("校准失败：请调整设备的位置后重新校准"),
   },
